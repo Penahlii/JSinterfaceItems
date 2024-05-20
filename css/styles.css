@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Product Card Styles */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 1.5em;
+  margin: 16px 0;
+}
+
+.product-price {
+  color: #4caf50;
+  font-size: 1.2em;
+}
+
+/* Comment Message Styles */
+.comment {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  max-width: 500px;
+  background-color: #f9f9f9;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.comment-message {
+  margin-bottom: 8px;
+}
+
+.comment-timestamp {
+  font-size: 0.8em;
+  color: #888;
+}
+
+/* Menu Item Styles */
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  max-width: 400px;
+}
+
+.menu-item-name {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.menu-item-price {
+  color: #ff5722;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.menu-item-description {
+  color: #555;
+}
